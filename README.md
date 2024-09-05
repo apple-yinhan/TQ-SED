@@ -1,2 +1,2 @@
 # TQ-SED
-## Detailed descriptions available soon.
+## Detailed descriptions and pre-trained LASS models available soon.

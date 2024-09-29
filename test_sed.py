@@ -49,7 +49,7 @@ def apply_model(model, inputs, asc_label=None, seq_len=200, device='cpu'):
 
 if __name__ == '__main__':
     print('==============================================================')
-    asc_mask = False
+    asc_mask = False # ignore
     nbatch = 0
     segment_based_metrics_test = sed_eval.sound_event.SegmentBasedMetrics(
         event_label_list=config.labels_hard,

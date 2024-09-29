@@ -1,7 +1,7 @@
 # Text-Queried Sound Event Detection
 This is the official code for paper **"Exploring Text-Queried Sound Event Detection with Audio Source Separation"**.
 
-Paper Link: [https://arxiv.org/abs/2409.13292]()
+Paper Link: [https://arxiv.org/abs/2409.13292](https://arxiv.org/abs/2409.13292)
 
 - Please first `pip install -r requirements.txt`
 

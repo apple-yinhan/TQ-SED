@@ -6,7 +6,7 @@ Paper Link: [https://arxiv.org/abs/2409.13292](https://arxiv.org/abs/2409.13292)
 - Please first `pip install -r requirements.txt`
 
 ## 1. Pre-train LASS model
-Please follow instructions in DCASE 2024 Challenge Task 9 Baseline for pre-training LASS models: [https://github.com/Audio-AGI/dcase2024_task9_baseline]()
+Please follow instructions in DCASE 2024 Challenge Task 9 Baseline for pre-training LASS models: [https://github.com/Audio-AGI/dcase2024_task9_baseline](https://github.com/Audio-AGI/dcase2024_task9_baseline)
                                                                                                   
 We only made **2** alterations over the baseline:
 
@@ -16,11 +16,11 @@ Codes for 16 kHz and 32 kHz AudioSep-DP are in `./LASS_codes/models/resunet.py` 
 
 **Training Data: FSD50K, Clotho -> FSD50K, Clotho, AudioCaps, Auto-ACD, WavCaps**
   
-Link to AudioCaps: [https://audiocaps.github.io/]()
+Link to AudioCaps: [https://audiocaps.github.io/](https://audiocaps.github.io/)
 
-Link to Auto-ACD: [https://auto-acd.github.io/]()
+Link to Auto-ACD: [https://auto-acd.github.io/](https://auto-acd.github.io/)
                                                                                                   
-Link to WaveCaps: [https://github.com/XinhaoMei/WavCaps]()                                                                                         
+Link to WaveCaps: [https://github.com/XinhaoMei/WavCaps](https://github.com/XinhaoMei/WavCaps)                                                                                         
                                                                                                   
 **Or you can directly use our pre-trained models**, we release our pre-trained AudioSep-DP models (16 kHz and 32 kHz) at:                                                                                        
 
@@ -30,7 +30,7 @@ Link to WaveCaps: [https://github.com/XinhaoMei/WavCaps]()
 
 #### 2.1.1 Download SED dataset                                                                       
                                                                        
-In our paper, we used **MAESTRO Real** dataset for TQ-SED. Please download dataset from [https://zenodo.org/records/7244360](), and put the data under *./datasets/maestro_real/*   
+In our paper, we used **MAESTRO Real** dataset for TQ-SED. Please download dataset from [https://zenodo.org/records/7244360](https://zenodo.org/records/7244360), and put the data under *./datasets/maestro_real/*   
 
 Your dataset folder should be like:
                                                                        
@@ -75,19 +75,19 @@ to perform this procedure.
 
 This project is built on the following projects, we appreciate their hard-working:
 
-- [https://github.com/Audio-AGI/dcase2024_task9_baseline]()
+- [https://github.com/Audio-AGI/dcase2024_task9_baseline](https://github.com/Audio-AGI/dcase2024_task9_baseline)
    
-- [https://audiocaps.github.io/]()
+- [https://audiocaps.github.io/](https://audiocaps.github.io/)
    
-- [https://auto-acd.github.io/]()
+- [https://auto-acd.github.io/](https://auto-acd.github.io/)
    
-- [https://github.com/XinhaoMei/WavCaps]()
+- [https://github.com/XinhaoMei/WavCaps](https://github.com/XinhaoMei/WavCaps)
    
-- [https://zenodo.org/records/7244360]()
+- [https://zenodo.org/records/7244360](https://zenodo.org/records/7244360)
    
-- [https://github.com/marmoi/dcase2023_task4b_baseline]()
+- [https://github.com/marmoi/dcase2023_task4b_baseline](https://github.com/marmoi/dcase2023_task4b_baseline)
    
-- [https://github.com/yluo42/TAC]()
+- [https://github.com/yluo42/TAC](https://github.com/yluo42/TAC)
    
-- [https://github.com/fgnt/sed_scores_eval]()
+- [https://github.com/fgnt/sed_scores_eval](https://github.com/fgnt/sed_scores_eval)
 

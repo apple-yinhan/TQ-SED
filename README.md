@@ -22,7 +22,7 @@ Link to Auto-ACD: [https://auto-acd.github.io/](https://auto-acd.github.io/)
                                                                                                   
 Link to WaveCaps: [https://github.com/XinhaoMei/WavCaps](https://github.com/XinhaoMei/WavCaps)                                                                                         
                                                                                                   
-**Or you can directly use our pre-trained models**, we release our pre-trained AudioSep-DP models (16 kHz and 32 kHz) at:                                                                                        
+**Or you can directly use our pre-trained models**, we release our pre-trained AudioSep-DP models (16 kHz and 32 kHz) at: [https://zenodo.org/records/14208090](https://zenodo.org/records/14208090)                                                                                         
 
 ## 2. Text-Queried Sound Event Detection
 

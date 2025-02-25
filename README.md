@@ -41,6 +41,8 @@ Your dataset folder should be like:
 - ./datasets/maestro_real/development_audio/
   
 - ./datasets/maestro_real/development_folds/
+
+PS: For development_folds, it contains matadata for each folder (fold1, fold2, fold3, fold4, fold5), you should download those metas from [https://github.com/marmoi/dcase2023_task4b_baseline](https://github.com/marmoi/dcase2023_task4b_baseline).
                                               
 #### 2.1.2 Split data into 5 folds
 

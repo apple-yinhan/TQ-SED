@@ -56,6 +56,8 @@ Pleasr use `./datasets/extract_feat.py` for extracting the mel features.
 
 In our work, we used the pre-trained LASS model to extract sound tracks of different events. Please use `./datasets/separate_audio.py` and `./datasets/separate_whole_audio.py` 
 to perform this procedure.
+
+PS: For separate_audio.py, we separate the short audio clips under each folder (fold1, fold2, fold3, fold4, fold5). For separate_whole_audio.py, we separate those long clips in the original dataset folder. Because during evaluation, we input the whole clip into the SED model, not those splited short clips.
                                                                                                   
 ### 2.2 Training
 

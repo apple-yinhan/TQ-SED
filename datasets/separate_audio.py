@@ -43,7 +43,7 @@ if __name__ == '__main__':
     with torch.no_grad():
         print('=== separate begin ===')
         level1_folder = '/mnt/nfs2/hanyin/LASS4SED/datasets/maestro_real/development_split_baseline'
-        for fold_idx in ['fold5']: # , 'fold2', 'fold3', 'fold4', 'fold5'
+        for fold_idx in ['fold5']: # 'fold1', 'fold2', 'fold3', 'fold4', 'fold5'
             level2_folder = level1_folder + f'/{fold_idx}'
             for type_ in ['train', 'val']:
                 lavel3_folder = level2_folder + f'/{type_}'

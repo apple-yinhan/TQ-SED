@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print(' === process train/val audio for each fold ===')
     split_folder = '/mnt/nfs2/hanyin/LASS4SED/datasets/maestro_real/development_split_mine'
     os.makedirs(split_folder, exist_ok=True)
-    for fold_idx in ['fold3', 'fold4', 'fold5']:
+    for fold_idx in ['fold1', 'fold2', 'fold3', 'fold4', 'fold5']:
         for type_ in ['train', 'val']:
             print(f'=== {fold_idx} - {type_} ===')
             total_idx = 0

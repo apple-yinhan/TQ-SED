@@ -5,6 +5,8 @@ Paper Link: [https://arxiv.org/abs/2409.13292](https://arxiv.org/abs/2409.13292)
 
 - Please first `pip install -r requirements.txt`
 
+- Please ensure that your feature extraction process is the same as ours! Otherwise the LASS models may face a performance decrease, details can be found in ISSUES.
+
 ## 1. Pre-train LASS model
 Please follow instructions in DCASE 2024 Challenge Task 9 Baseline for pre-training LASS models: [https://github.com/Audio-AGI/dcase2024_task9_baseline](https://github.com/Audio-AGI/dcase2024_task9_baseline)
                                                                                                   
